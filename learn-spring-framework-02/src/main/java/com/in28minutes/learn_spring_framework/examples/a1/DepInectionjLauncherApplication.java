@@ -17,8 +17,8 @@ class Dependency2 implements DepInterface {}
 class MainClass {
   DepInterface dependency;
 
-  public MainClass(DepInterface dependency) {
-    this.dependency = dependency;
+  public MainClass(DepInterface dependency1) {
+    this.dependency = dependency1;
   }
 
   public String toString() {
